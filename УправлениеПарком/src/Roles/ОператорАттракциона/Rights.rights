@@ -81,7 +81,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.ПосещениеАтракциона</name>
+		<name>Document.ПосещениеАттракциона</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

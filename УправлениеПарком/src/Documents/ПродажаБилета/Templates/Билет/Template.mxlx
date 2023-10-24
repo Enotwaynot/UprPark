@@ -53,29 +53,68 @@
 			<c>
 				<c>
 					<f>4</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Атракцион:	</v8:content>
-						</v8:item>
-					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>5</f>
-					<parameter>Атракцион</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>6</f>
+					<f>5</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
 		<index>5</index>
+		<row>
+			<c>
+				<c>
+					<f>6</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тип билета:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>2</i>
+				<c>
+					<f>7</f>
+					<parameter>Номенклатура</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<c>
+				<c>
+					<f>4</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колличество посещений :</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>2</i>
+				<c>
+					<f>7</f>
+					<parameter>КолличествоПосещений</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>7</index>
 		<row>
 			<c>
 				<c>
@@ -89,20 +128,16 @@
 				</c>
 			</c>
 			<c>
+				<i>2</i>
 				<c>
-					<f>5</f>
+					<f>8</f>
 					<parameter>СуммаДокумента</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>6</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>6</index>
+		<index>8</index>
 		<row>
 			<c>
 				<c>
@@ -111,7 +146,7 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
@@ -129,46 +164,6 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
-		<index>7</index>
-		<row>
-			<c>
-				<c>
-					<f>0</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>7</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>0</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
-		<index>8</index>
-		<row>
-			<c>
-				<c>
-					<f>0</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>7</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>0</f>
-				</c>
-			</c>
-		</row>
-	</rowsItem>
-	<rowsItem>
 		<index>9</index>
 		<row>
 			<c>
@@ -178,7 +173,7 @@
 			</c>
 			<c>
 				<c>
-					<f>7</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
@@ -198,7 +193,7 @@
 			</c>
 			<c>
 				<c>
-					<f>8</f>
+					<f>9</f>
 				</c>
 			</c>
 			<c>
@@ -210,15 +205,55 @@
 	</rowsItem>
 	<rowsItem>
 		<index>11</index>
-		<indexTo>13</indexTo>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>10</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<indexTo>15</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>7</defaultFormatIndex>
-	<height>16</height>
-	<vgRows>16</vgRows>
+	<defaultFormatIndex>9</defaultFormatIndex>
+	<height>18</height>
+	<vgRows>18</vgRows>
 	<merge>
 		<r>0</r>
 		<c>0</c>
@@ -226,14 +261,34 @@
 		<w>4</w>
 	</merge>
 	<merge>
-		<r>4</r>
-		<c>1</c>
+		<r>5</r>
+		<c>0</c>
 		<w>1</w>
 	</merge>
 	<merge>
 		<r>5</r>
-		<c>1</c>
+		<c>2</c>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>0</c>
 		<w>1</w>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>2</c>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>0</c>
+		<w>1</w>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>2</c>
+		<w>2</w>
 	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Заголовок</name>
@@ -250,7 +305,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>6</endRow>
+			<endRow>8</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -264,8 +319,9 @@
 	</printArea>
 	<font faceName="Arial" height="10" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="10" bold="false" italic="true" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="10" bold="true" italic="true" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
-		<width>93</width>
+		<width>144</width>
 	</format>
 	<format>
 		<width>126</width>
@@ -283,12 +339,23 @@
 		<font>1</font>
 		<horizontalAlignment>Right</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
+	</format>
+	<format>
+		<font>2</font>
+		<width>144</width>
+	</format>
+	<format>
+		<font>1</font>
+		<width>72</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<font>1</font>
 		<horizontalAlignment>Right</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
+		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<width>72</width>
