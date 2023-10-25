@@ -50,7 +50,7 @@
   <roles>Role.Кассир</roles>
   <roles>Role.ОператорАттракциона</roles>
   <roles>Role.ПолныеПрава</roles>
-  <catalogs>Catalog.Атракционы</catalogs>
+  <catalogs>Catalog.Аттракционы</catalogs>
   <catalogs>Catalog.ВидыАттракционов</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <documents>Document.ПосещениеАттракциона</documents>

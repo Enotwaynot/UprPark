@@ -25,7 +25,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Атракционы</name>
+		<name>Catalog.Аттракционы</name>
 		<right>
 			<name>InteractiveDeletePredefinedData</name>
 			<value>false</value>

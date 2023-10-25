@@ -51,7 +51,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Атракционы</name>
+		<name>Catalog.Аттракционы</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
